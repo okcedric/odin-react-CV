@@ -1,5 +1,3 @@
-# CV Interactif - Odin Project
+# CV Application - Odin Project
 
-## Description
-
-Ce projet est un exercice réalisé dans le cadre du Odin Project. Il s'agit d'un CV interactif permettant aux utilisateurs de saisir et de visualiser leurs informations personnelles, éducatives et professionnelles.
+This project is an exercise completed as part of The Odin Project. It's an interactive CV that allows users to enter and view their personal, educational, and professional information
