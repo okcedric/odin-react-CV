@@ -1,0 +1,138 @@
+#root {
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  width:100%;
+  gap: 20px;
+  align-items: start;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #FFFEF2;
+}
+
+section {
+  min-width: 	60vw;
+  padding : 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F5E8;
+}
+.border{
+  background-color: #F6F5E8;
+  margin-bottom: 0.5rem;
+  padding-bottom: 1.2rem ;
+}
+
+section header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.line{
+  display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: start;
+  padding :1rem 0 ;
+  gap : 0rem;
+  
+}
+
+input {
+  font-family: 'Inter Tight',sans-serif;
+  font-size: 1.2rem;
+  width: 100%;
+  border: none;
+  margin-bottom: .5rem;
+  background-color: transparent;
+  color: #111;
+  border-bottom: solid 2px #11111133;
+  color-scheme: light;
+ }
+ input:focus, input:focus-visible{
+  border: none;
+  border-bottom: solid 2px #111111CC;
+  outline: none;
+
+ }
+#infos{
+  display : flex;
+  flex-direction: column;
+}
+
+.dates {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem
+
+}
+.tiret{
+  justify-self: center; 
+}
+p.position, p.study {
+  min-width: 50vw;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+input.position,input.study{
+  font-size: 1.5rem;
+  
+}
+
+hr{
+  color: #111;
+  background-color: #111;
+  height: 2px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+button{
+  background-color: #11111133;
+  color: #111;
+  min-width: 5.5rem;
+}
+
+button:hover {
+  background-color:#111;
+  color: #FFF;
+}
+
+
+.delete {
+   background-color: #ff634733;
+  color: #ff6347;
+  margin: 1rem 0;
+}
+.delete:hover{
+  background-color: tomato;
+  color: #111;
+}
+
+.add{
+  background-color: #1D764B33;
+  color:#1D764B ;
+}
+.add:hover {
+background-color:#1D764B;
+color: white;
+
+}
+p{
+  margin: 0;
+  font-size: 1.2rem;
+}
+ul{
+  padding-inline-start: 1rem;
+  }
+  .responsabilities li{
+    font-size: 1.2rem;
+  }
